@@ -23,7 +23,7 @@ Creates the resource group AutomatedLabSources and a random storage account with
 
 ### Example 1
 ```powershell
-PS C:\> New-LabAzureLabSourcesStorage -LocationName westeurope
+PS C:\> New-LabAzureLabSourcesStorage -LocationName "west europe"
 ```
 
 Creates the resource group AutomatedLabSources and a random storage account with a file share called labsources on it in your subscription
